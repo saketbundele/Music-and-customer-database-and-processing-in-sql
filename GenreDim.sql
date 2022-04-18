@@ -1,0 +1,32 @@
+CREATE TABLE IF NOT EXISTS GenreDim (
+    `Genre` VARCHAR(15) CHARACTER SET utf8,
+    `GenreID` INT
+);
+INSERT INTO GenreDim VALUES
+    ('rock',1),
+    ('blues',2),
+    ('jazz',3),
+    ('bass music',4),
+    ('rap',5),
+    ('pop',6),
+    ('hip hop',7),
+    ('metal',8),
+    ('chill-out',9),
+    ('dance pop',10),
+    ('meditation',11),
+    ('techno',12),
+    ('big beat',13),
+    ('vocal',14),
+    ('disco',15),
+    ('oldies',16),
+    ('parody',17),
+    ('religious music',18),
+    ('trance',19),
+    ('bhangra',20),
+    ('orchestra',21),
+    ('stand-up comedy',22),
+    ('comedy',23),
+    ('folk',24),
+    ('lullaby',25),
+    ('chinese music',26),
+    ('horror punk',27);
